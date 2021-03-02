@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/adform/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/adform/static/js/main.5c46a97e.chunk.js",
-    "main.js.map": "/adform/static/js/main.5c46a97e.chunk.js.map",
+    "main.js": "/adform/static/js/main.bb38fc7c.chunk.js",
+    "main.js.map": "/adform/static/js/main.bb38fc7c.chunk.js.map",
     "runtime-main.js": "/adform/static/js/runtime-main.4343f68f.js",
     "runtime-main.js.map": "/adform/static/js/runtime-main.4343f68f.js.map",
     "static/js/2.a7552d4d.chunk.js": "/adform/static/js/2.a7552d4d.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.4343f68f.js",
     "static/js/2.a7552d4d.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.5c46a97e.chunk.js"
+    "static/js/main.bb38fc7c.chunk.js"
   ]
 }
