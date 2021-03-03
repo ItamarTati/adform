@@ -1,23 +1,17 @@
 {
   "files": {
-    "main.css": "/adform/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/adform/static/js/main.de9014dc.chunk.js",
-    "main.js.map": "/adform/static/js/main.de9014dc.chunk.js.map",
-    "runtime-main.js": "/adform/static/js/runtime-main.8d42dd85.js",
-    "runtime-main.js.map": "/adform/static/js/runtime-main.8d42dd85.js.map",
-    "static/js/2.db39837d.chunk.js": "/adform/static/js/2.db39837d.chunk.js",
-    "static/js/2.db39837d.chunk.js.map": "/adform/static/js/2.db39837d.chunk.js.map",
-    "static/js/3.4a34e60f.chunk.js": "/adform/static/js/3.4a34e60f.chunk.js",
-    "static/js/3.4a34e60f.chunk.js.map": "/adform/static/js/3.4a34e60f.chunk.js.map",
+    "main.js": "/adform/static/js/main.dc5c6fc0.chunk.js",
+    "main.js.map": "/adform/static/js/main.dc5c6fc0.chunk.js.map",
+    "runtime-main.js": "/adform/static/js/runtime-main.27ab8771.js",
+    "runtime-main.js.map": "/adform/static/js/runtime-main.27ab8771.js.map",
+    "static/js/2.0ea0c1ce.chunk.js": "/adform/static/js/2.0ea0c1ce.chunk.js",
+    "static/js/2.0ea0c1ce.chunk.js.map": "/adform/static/js/2.0ea0c1ce.chunk.js.map",
     "index.html": "/adform/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/adform/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.db39837d.chunk.js.LICENSE.txt": "/adform/static/js/2.db39837d.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/adform/static/media/logo.6ce24c58.svg"
+    "static/js/2.0ea0c1ce.chunk.js.LICENSE.txt": "/adform/static/js/2.0ea0c1ce.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8d42dd85.js",
-    "static/js/2.db39837d.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.de9014dc.chunk.js"
+    "static/js/runtime-main.27ab8771.js",
+    "static/js/2.0ea0c1ce.chunk.js",
+    "static/js/main.dc5c6fc0.chunk.js"
   ]
 }
