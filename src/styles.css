@@ -72,6 +72,17 @@ h1 {
     .card {
             width: 350px;
     }
+    body{
+        background: black;
+    }
+    #flying-object-01 {
+        display: none; 
+    }
+    
+    #flying-object-02 {
+        display: none; 
+
+    }
 }
   
 .category.active {
