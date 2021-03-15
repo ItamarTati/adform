@@ -1,18 +1,9 @@
 import React, { useState, useEffect } from 'react';
-let background = ['url(https://fwbmatch.fra1.digitaloceanspaces.com/starwars/locations-bg-01.jpg)',
-  'url(https://fwbmatch.fra1.digitaloceanspaces.com/starwars/locations-bg-02.jpg)', 'url(https://fwbmatch.fra1.digitaloceanspaces.com/starwars/locations-bg-03.jpg)',
-  'url(https://fwbmatch.fra1.digitaloceanspaces.com/starwars/locations-bg-04.jpg)']
+import { Planet } from './PlanetInterface';
+import { background } from './Background';
 
 
-interface data {
-  name: string,
-  population: number,
-  gravity: string,
-  diameter: number,
-  climates: string[]
-}
-
-export default function PlanetCard(props: data) {
+export default function PlanetCard(props: Planet) {
   const [counter, setCounter] = useState(0);
   useEffect(
     () => {
@@ -25,7 +16,7 @@ export default function PlanetCard(props: data) {
         document.body.style.backgroundAttachment = 'fixed'
 
 
-      }, 5000);
+      }, 7000);
       return () => {
         clearTimeout(id);
       };

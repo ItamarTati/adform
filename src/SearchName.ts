@@ -1,11 +1,6 @@
-interface data {
-    name: string,
-    population: number,
-    gravity: string,
-    diameter: number,
-    climates: string[]
-  }
-export default function SearchName(searchString: string, planets: data[]): data[]{
+import { Planet } from './PlanetInterface';
+
+export default function SearchName(searchString: string, planets: Planet[]): Planet[] {
     var pattern = new RegExp(searchString.toLowerCase());
     return planets.filter((planet) => pattern.test(planet.name.toLowerCase()))
 }
