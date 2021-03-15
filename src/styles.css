@@ -1,0 +1,159 @@
+body {
+    background: url("https://fwbmatch.fra1.digitaloceanspaces.com/starwars/star-wars-bg-01.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: background 3s linear;
+    overflow-x: hidden;
+  }
+h1 {
+    color: white;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    
+
+}
+.search{
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+#flying-object-01 {
+    left: 4vw;
+    position: fixed;
+    animation: move-1 90s infinite;
+    overflow: hidden;
+    transform: translate(0);
+    z-index: 5;   
+}
+
+#flying-object-02 {
+    left: 25vw;
+    position: fixed;
+    animation: move-2 90s infinite;
+    overflow: hidden;
+    transform: translate(0);
+    z-index: 5;
+}
+
+@keyframes move-1 {
+    40% {
+      -moz-transform: translate(-20vw);
+      -webkit-transform: translate(-20vw);
+      transform: translate(-20vw);
+    }
+  }
+  @keyframes move-2 {
+    50% {
+      -moz-transform: translate(35vw);
+      -webkit-transform: translate(35vw);
+      transform: translate(35vw);
+    }
+  }
+  .cards{
+      color: blue;
+      text-align: center;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+  }
+.category.active {
+    display: block;
+}
+.card {
+    width: 400px;
+    height: 540px;
+    margin: 50px auto;
+    padding-top: 50px;
+    background: #fff;
+    border-radius: 20px;
+    text-align: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    box-shadow: -1px 15px 30px -15px black;
+    transform: translateX(-100px);
+    transition: all 0.7s cubic-bezier(0.25, 0.8, 0.25, 1);
+    position: relative;
+    z-index: 10;
+}
+.card.active {
+    opacity: 1;
+    transform: translateX(0);
+    transition-delay: 0.7s;
+    transition: all 0.7s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.card.coruscant header {
+    background: url(https://fwbmatch.fra1.digitaloceanspaces.com/starwars/locations-plain-bg.jpg);
+    background-size: 950px;
+}
+.card header.bg-image {
+    margin-bottom: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.card header img {
+    position: relative;
+
+}
+.card main .level {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 3px;
+    color: #EC9B3B;
+}
+.card main .name {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.card main p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #7d8c90;
+    padding: 0 25px;
+    text-align: center;
+    line-height: 15px;
+}
+footer {
+    background: #22262d;
+}
+.card footer {
+    padding: 3px;
+    color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.card footer > div {
+    font-weight: 400;
+    font-size: 11px;
+    text-align: left;
+    line-height: 14px;
+    padding: 10px 15px 5px 15px;
+}
+.card footer .left .title, .card footer .middle .title, .card footer .right .title {
+    text-transform: uppercase;
+    font-size: 11px;
+    text-align: left;
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+.card footer div .content {
+    font-weight: 400;
+    font-size: 11px;
+    text-align: left;
+    line-height: 14px;
+    margin-left: 2px;
+}
+.button{
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}

@@ -6,6 +6,6 @@ interface data {
     climates: string[]
   }
 export default function SearchName(searchString: string, planets: data[]): data[]{
-    var pattern = new RegExp(searchString);
-    return planets.filter((planet) => pattern.test(planet.name))
+    var pattern = new RegExp(searchString.toLowerCase());
+    return planets.filter((planet) => pattern.test(planet.name.toLowerCase()))
 }

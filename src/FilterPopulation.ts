@@ -7,5 +7,5 @@ interface data {
   }
 
 export default function FilterPopulation(min: number, max: number, planets: data[]): data[]{
-    return planets.filter((planet) => planet.population <= max && planet.population >= min)
+    return planets.filter((planet) => planet.population <= max && planet.population >= min && planet.population !== null)
 }
