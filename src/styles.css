@@ -4,6 +4,7 @@ body {
     background-attachment: fixed;
     transition: background 3s linear;
     overflow-x: hidden;
+    margin: 0px;
   }
 h1 {
     color: white;
@@ -24,6 +25,7 @@ h1 {
     text-align: center;
     background-color: white;
     position: relative;
+
 }
 #flying-object-01 {
     left: 4vw;
@@ -63,11 +65,15 @@ h1 {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 800px) {
     .cards {
         grid-template-columns: repeat(1, 1fr);
     }
-  }
+    .card {
+            width: 350px;
+    }
+}
+  
 .category.active {
     display: block;
 }
@@ -164,8 +170,4 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-
-
 }
